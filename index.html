@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mangatek</title>
+        <link rel="stylesheet" href="Geek.css" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+  <body>
+
+        <header> 
+            <h1>Mangatek</h1>
+            <p>Trouver le Manga <br/> qui vous convient !</p>
+        </header>
+
+        <nav> <!--onglet de navigation-->
+            <ul class="nav">
+                <li><a href="Mangatek.html" class="onglet">Mangathèque</a></li>
+                <li><a href="liens.html" class="onglet">Où lire ?</a></li>
+                <li><a href="Mangaka.html" class="onglet">Mangaka</a></li>
+            </ul>
+        </nav>
+
+        <section class="form">
+          	<div class="type">
+          	<id><h2>Type :</h2>
+          		<input type="radio" name="type" value="Kodomo" id="Kodomo" /> <label for="Kodomo">Kodomo</label><br />
+              <input type="radio" name="type" value="Shojo"  id="Shojo"  /> <label for="Shojo">Shojo</label><br/>
+          		<input type="radio" name="type" value="Shonen" id="Shonen" /> <label for="Shonen">Shonen</label><br />
+          		<input type="radio" name="type" value="Seinen" id="Seinen" /> <label for="Seinen">Seinen</label></p>
+
+          	</id>
+          	</div>
+          	<div class="Theme">
+          	<id><h2>Thème :</h2>
+          		<input type="radio" name="Theme" value="Sport" id="Sport" /> <label for="Sport">Sport</label><br />
+          		<input type="radio" name="Theme" value="Arts Martiaux" id="Arts Martiaux" /> <label for="Arts Martiaux">Arts Martiaux</label><br />
+          		<input type="radio" name="Theme" value="Romance" id="Romance" /> <label for="Romance">Romance</label><br />
+          		<input type="radio" name="Theme" value="Aventure" id="Aventure" /> <label for="Aventure">Aventure</label><br />
+          		<input type="radio" name="Theme" value="Thriller" id="Thriller" /> <label for="Thriller">Thriller</label><br />
+          		<input type="radio" name="Theme" value="Fantastique" id="Fantastique" /> <label for="Fantastique">Fantastique</label><br />
+          		<input type="radio" name="Theme" value="Science-fiction" id="Science-fiction" /> <label for="Science-fiction">Science-fiction</label><br />
+          		<input type="radio" name="Theme" value="Horreur" id="Horreur" /> <label for="Horreur">Horreur</label><br />
+          		<input type="radio" name="Theme" value="Historique" id="Historique" /> <label for="Historique">Historique</label></p>
+          	</id>
+          	</div>
+          	<div class="publication">
+          	<id><h2>Publication :</h2>
+          		<input type="radio" name="state" value="Terminée" id="Terminée" /> <label for="Terminée">Terminée</label><br />
+          		<input type="radio" name="state" value="En cours" id="En cours" /> <label for="En cours">En cours</label></p>
+          	</id>
+          	</div>
+          	
+          	<div class="ventes">
+          		<h2>Ventes min :</h2>
+          		<label for="ventes">0</label>
+          		<input type="range" name="ventes" id="ventes" min="0" max="100" value="10" class="ventes">
+          		<label for="ventes">100M</label>
+        	</div>
+
+        	<div class="volumes">
+        		<h2> Nombre max de volumes :</h2>
+          		<label for="volumes">1</label>
+          		<input type="range" name="volumes" id ="volumes" min="0" max="250" value="1" class="volumes">
+          		<label for="volumes">250</label>
+        	</div>
+
+      	</section>
+        <section class ="resultats">
+        <main class="manga"></main>
+        </section>
+
+
+        <footer>
+          <p class = "wiki">&copy; Information from Wikipedia</p>
+        </footer>
+
+        <script type="text/javascript" src="mang.js"></script>
+  </body>
+</html>
