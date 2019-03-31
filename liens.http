@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mangatek</title>
+        <link rel="stylesheet" href="Geek.css" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+  <body>
+	<header> 
+        <h1>Mangatek</h1>
+        <p>Trouver le Manga <br/> qui vous convient !</p>
+    </header>
+
+    <nav> <!--onglet de navigation-->
+        <ul class="nav">
+            <li><a href="Mangatek.html" class="onglet">Mangathèque</a></li>
+            <li><a href="liens.html" class="onglet">Où lire ?</a></li>
+        </ul>
+    </nav>
+    <article>
+
+    	<ul class="sites">
+    		<li class ="site"><a href="https://mangadex.org"><h2 class="lisite">Mangadex :</h2>
+    		<p>Avantages : <ul><li>Grande base de données</li><li> Possibilité d'incription et de suivi de vos lectures</li><li>Manga disponibles en plusieurs langues</li></ul><br />Inconvenients :<br /><br /> <ul><li>Parfois difficile de trouver son scan tellement il y en a </li></ul></p>	 
+    		</a></li>
+			
+
+    		<li class="site"><a href="https://www.japscan.to/" ><h2 class="lisite">Japscan :</h2>
+    		<p>Avantages : <ul><li>Grande base de données</li><li>Un scan, un lien</li><li>Parution rapide</li></ul><br />Inconvenients : <br /><br /><ul><li>Publicités</li></ul></p>
+    		</a></li>
+    		
+
+
+    		<li class="site"><a href="https://scantrad.fr/" ><h2 class="lisite">Scantrad :</h2>
+    		<p>Avantages : <ul><li>Site des traducteurs francophones</li><li>Possibilité de commentaires</li><li>Parution rapide</li></ul><br />Inconvenients : <br /><br />  <ul><li>Seuls les derniers scans sont présents</li><li>Petite base de données</li></ul></p>
+    		</a></li>
+    		
+
+
+    		<li class="site"><a href="https://www.scan-fr.io/index.php" ><h2 class="lisite">Scan-fr :</h2>
+    		<p>Avantages : <ul><li>Moyenne base de données</li><li>Un scan, un lien</li><li>Parution rapide</li></ul><br />Inconvenients : <br /><br /><ul><li>Publicités</li></ul></p>
+    		</a></li>
+    	</ul>
+    </article>
+
+
+  </body>
+</html>
