@@ -1,0 +1,97 @@
+body
+{
+	background-color: white; 
+    color: black; 
+ 
+}
+header
+{
+	background-image: url(proj.jpg);
+	background-repeat:no-repeat;
+	width:70%;
+	height:40%;
+	text-align: right;
+	padding:10%;
+	margin-left:-10px;
+	margin-top:-80px;
+	font-size: large;
+	font-family: 'Manga';
+
+}
+h1
+{
+	font-size: xx-large;
+}
+@font-face {
+    font-family: 'Manga';
+    src: url('KaushanScript-Regular.otf'); 
+}
+.nav
+{
+	display: flex;
+	list-style-type:none;
+	justify-content: space-around;
+	font-size: large;
+	font-family: 'Manga';
+	background-color: rgb(250, 232, 247);
+	margin-top: -70px;
+	margin-right: : -10px;
+	padding: 7px;
+}
+a:link 
+{ 
+	text-decoration:none; 
+	color: black;
+} 
+a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+
+h2
+{
+	font-size: medium;
+}
+
+.form
+{
+	background-color: rgb(250, 232, 247);
+	font-size: small;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-around;
+
+}
+.manga
+{
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0%;
+
+}
+.info
+{
+	border-style:solid;
+	border-width:1px;
+	padding :10px;
+	padding-left:50px;
+	margin: 10px;
+	overflow: hidden;
+	max-height: 300px; 
+}
+footer
+{
+	text-align:center;
+	margin: auto ;
+	background-color :rgb(250, 232, 247);
+}
+img
+{
+	float: right;
+	height: 300px;
+	width: 500px;
+}
