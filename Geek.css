@@ -104,6 +104,8 @@ img
 	padding: 50px;
 	padding-left: 100px;
 	list-style-type:none;
+	font-family: sans-serif;
+
 
 }
 
@@ -112,4 +114,6 @@ img
 	border-style: solid;
 	margin: 20px;
 	padding: 20px;
+	font-family: sans-serif;
+
 }
