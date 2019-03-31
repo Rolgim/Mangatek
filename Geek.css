@@ -95,3 +95,21 @@ img
 	height: 300px;
 	width: 500px;
 }
+
+.sites
+{
+	display: flex;
+	flex-direction: column;
+	margin:auto;
+	padding: 50px;
+	padding-left: 100px;
+	list-style-type:none;
+
+}
+
+.site
+{
+	border-style: solid;
+	margin: 20px;
+	padding: 20px;
+}
